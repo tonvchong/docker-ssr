@@ -16,3 +16,21 @@ docker build -t sss-docker .
 ```
 docker run -d -p 41238:41238 -p 41239:41239 sss-docker
 ```
+
+## Docker Hub
+
+```
+https://hub.docker.com/r/tonv/docker-ssr
+```
+
+### Pull
+
+```
+docker pull tonv/docker-ssr
+```
+
+### Run
+
+```
+docker run --name docker-ssr -d -p 41238:41238 -p 41239:41239 docker.io/tonv/docker-ssr
+```
