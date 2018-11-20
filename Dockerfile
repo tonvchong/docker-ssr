@@ -2,7 +2,8 @@ FROM alpine:latest
 
 MAINTAINER Tonvchong <tonvchong@gmail.com>
 
-RUN yum install python-setuptools m2crypto supervisor
+RUN apk update && apk upgrade
+RUN apk add python py-pip py-setuptools libsodium
 
 RUN pip install --upgrade pip
 RUN pip install shadowsocks
