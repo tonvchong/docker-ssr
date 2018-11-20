@@ -1,9 +1,1 @@
-{
-    "server": "0.0.0.0",
-    "port_password": {
-        "41238": "tonvforlearn123",
-        "41239": "tonvforlearn321"
-    },
-    "timeout": 600,
-    "method": "aes-256-cfb"
-}
+{"server": "0.0.0.0","port_password": {"41238": "tonvforlearn123","41239": "tonvforlearn321"},"timeout": 600,"method": "aes-256-cfb"}
