@@ -1,5 +1,5 @@
 # docker-ssr
-simple docker ssserver with python
+simple docker ssserver from python
 
 You can configure multiple users (port-password pairs) via the file `shadowsocks.json`.
 
